@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<HTML lang="pt-br"> 
+    <head>
+        <meta charset="utf-8" />
+        <title>Exemplo Formato CPF. CEP</title>
+    </head>
+    <body>
+      
+            <form action="script_cep_cpf.php">
+                CPF
+                <input type= "text" name="cpf" required
+                pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}"
+                placeholder="000.000.000-00"
+                title="Digite um cpf no formato: xxx.xxx.xxx-xx">
+              
+                <br><br>
+                CEP
+                <input type="text" name="cep" required
+                    pattern="\d{2}\.\d{3}\-\d{3}"
+                    placeholder="99.999-999"
+                    title="Digite um CEP no formato: xx.xxx-xxx">
+                <br><br> 
+                <input type ="submit" value ="verificar">
+            </form>
+       
+</HTML>
