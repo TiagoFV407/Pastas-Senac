@@ -1,0 +1,77 @@
+body{
+    background-color: whitesmoke;
+}
+h1{
+    color: rgb(64, 64, 230);
+    font-size: 88px;
+}
+
+.fundo{
+    background-color: bisque;
+}
+.fundo2{
+    background-color: aquamarine;
+}
+.center{
+    text-align: center;
+}
+
+#logo{
+    background-color: rgb(14, 223, 223) ;
+    width: 220px;
+}
+
+a [href]{
+    color: yellow;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cor{
+    color: orange;
+}
+.paragrafo{
+    color: blueviolet;
+}
+
+.corFundo{
+    background-color: aqua;
+}
+.imagem-fundo{
+    background-image:url("/img/rio-de-janeiro.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 500px;
+    height: 500px;
+} 
+
+.borda1{
+    border: groove red 10px;
+}
+.borda2{
+    border: dashed yellow 15px;
+}
+.borda3{
+    border: dotted greenyellow 15px;
+}
+.borda4{
+    border: inherit blanchedalmond 10px;
+}
+.borda5{
+    border: solid darkturquoise 15px;
+}
+.borda6{
+    border: inset goldenrod 10px;
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
