@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+}
+.calculadora{
+    width: 600px;
+    height: 700px;
+    border-radius: 30px;
+    border-color: blueviolet;
+    background-color: white;
+    border-style: solid;
+    margin: auto;
+    text-align: center;
+
+}
+.visor{
+color: black;
+border-style: solid;
+border-radius: 15px;
+width: 550px;
+height: 100px;
+text-align: center;
+margin: auto;
+margin-top: 30px;
+box-shadow: inset 0 0 1rem rgb(87, 87, 230);
+}
+
+button{
+width: 100px;
+height: 50px;
+margin: 30px;
+}
+.coluna{
+    display: flex;
+    text-align: center;
+    margin-top: 100px;
+}
+.coluna2{
+    display: flex;
+    text-align: center;
+
+    
+}
+.coluna3{
+    display: flex;
+    text-align: center;
+}
+.coluna4{
+    display: flex;
+    text-align: center;
+}
