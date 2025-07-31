@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aulas em Java Script</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body onload="alert('Terminou de Carregar')" onresize="console.log('Houve um redimencionamento')">
+    <h1>Aprendendo Java Script</h1>
+    <!-- <p id="resultado"> </p> -->
+    <!-- <script src="/js/script.js"></script>-->
+    <!-- <script src="js/function.js"></script> -->
+
+    <button onDblclick="eventoOndblclick()">2 Click</button>
+    <button onclick="eventoOnClick()">1 unico Click</button>
+    <script src="js/eventos.js"></script>
+    <div id="mouseEmCima" onmouseover="viraVerde()" onmouseout="viraAzul()"></div>
+    <div id="mouseMove" onmousemove="adicionaTexto()"></div>
+    <div id="mouseDown" onmousedown="alert('Clicou na Div')"></div>
+    <div id="mouseUp" onmouseup="alert('Parou de Clicar na Div')"></div><br>
+    <input id="campoTexto" onfocus="limpaTexto()" type="text" placeholder="Digite aqui!" value="Campo já preenchida">
+    <select id="itens" onchange="mudou()">
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+        <option value="4">Valor 4</option>
+    </select>
+    <h2>Evento sem foco</h2>
+    <input id="campoTexto" onblur="mudarCor()" type="text" placeholder="Digite aqui!"><br><br>
+    <h2>On_key_Down</h2>
+    <input id="teclaAcionada" onkeydown="teclaPressionada()" type="text" placeholder="Digite aqui!"><br>
+    <h2>On_key_press</h2>
+    <input id="teclaAcionada" onkeypress="teclaPressionada()" type="text" placeholder="Digite aqui!"><br>
+    <h2>On_key_up</h2>
+    <input id="teclaAcionada" onkeyup="teclaPressionada()" type="text" placeholder="Digite aqui!"><br>    
+</body>
+</html>

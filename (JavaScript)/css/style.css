@@ -1,0 +1,49 @@
+#mouseEmCima{
+    margin:auto auto;
+    width: 80%;
+    height: 200px;
+    background: blue;
+}
+
+#mouseMove{
+    margin: auto auto;
+    width: 80%;
+    height: 200px;
+    background: fuchsia;
+}
+
+#mouseDown{
+    margin: auto auto;
+    width: 80%;
+    height: 200px;
+    background: black;
+}
+
+#mouseUp{
+    margin: auto auto;
+    width: 80%;
+    height: 200px;
+    background-color: goldenrod;
+}
+
+#campoTexto{
+    padding: 80px;
+    font-size: 40px;
+}
+
+input{
+    padding: 80px;
+    font-size: 40px;
+}
+#nome{
+    padding: 50px;
+    font-size: 40px;
+}
+#botao{
+    padding: 50px;
+}
+
+#cor{
+    padding: 50px;
+    font-size: 40px;
+}
